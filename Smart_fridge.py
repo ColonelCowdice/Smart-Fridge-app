@@ -7,7 +7,7 @@ import AI_image
 pygame.init()
 screen = pygame.display.set_mode([1500, 1000])
 
-# Load background image
+# Load background image(set your background image size based on the pygame window)
 background_surf = pygame.image.load("Insert your background image here")
 
 # Load weather image

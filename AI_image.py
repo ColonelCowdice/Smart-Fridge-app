@@ -43,7 +43,7 @@ image_data = requests.get(image_url).content
 image = Image.open(BytesIO(image_data))
 
 # Resize image to 500x500
-image = image.resize((739, 550))
+image = image.resize((790, 550))
 
 # Save the image as Ad.png
 ad = 'Ad.png'

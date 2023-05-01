@@ -30,7 +30,7 @@ hourly_times = [datetime.fromtimestamp(hour['dt']).strftime('%H:%M') for hour in
 current_day = datetime.now().strftime('%Y-%m-%d')
 
 # Plot hourly temperature data on a line graph(p.s the time is in Eastern time)
-fig, ax = plt.subplots(figsize=(7.5, 6))
+fig, ax = plt.subplots(figsize=(7, 6))
 # fig, ax = plt.subplots()
 ax.plot(hourly_times, hourly_temps)
 ax.set_xlabel('Time(hours)')
